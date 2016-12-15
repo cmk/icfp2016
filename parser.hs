@@ -1,7 +1,7 @@
 import Control.Monad.State
 import Data.Ratio
 import Text.Regex (splitRegex, mkRegex)
-import Text.Read
+
 
 type Point = (Rational, Rational)
 type LineSeg = (Point, Point)
