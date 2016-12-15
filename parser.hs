@@ -69,4 +69,4 @@ exampleProb =
 
 
 main :: IO ()
-main = print $ show $ fst $ runState parseProblem (tokenize exampleProb)
+main = print $ evalState parseProblem (tokenize exampleProb)
